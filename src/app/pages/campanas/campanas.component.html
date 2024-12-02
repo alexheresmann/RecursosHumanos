@@ -1,0 +1,663 @@
+<!-- <p>Campañas works!</p> -->
+
+
+<div class="">    
+    <form>  
+
+        <section class="content col-md-12">
+
+            <div class="container-fluid row">
+                <!-- Card Example -->
+                <div class="card col-md-6">
+                    <div class="card-header">
+                        <h3 class="card-title">Formulario de Campañas</h3>
+                        <div class="card-tools">
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                <i class="fas fa-minus"></i>
+                            </button>                          
+    
+                        </div>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body">                       
+                        <div class="form-group">
+                            <label>Origen de Datos</label><br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="origenDatos" id="baseDatos" value="baseDatos">
+                                <label class="form-check-label" for="baseDatos">Base de Datos</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="origenDatos" id="importacionExcel" value="importacionExcel">
+                                <label class="form-check-label" for="importacionExcel">Importación de Excel</label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="nombreCampaña">Nombre de la Campaña</label>
+                            <input type="text" class="form-control" id="nombreCampaña" placeholder="Ingrese el nombre de la campaña">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="descripcionCampaña">Descripción</label>
+                            <textarea class="form-control" id="descripcionCampaña" rows="3" placeholder="Ingrese la descripción de la campaña"></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="scriptVendedor">Script para Vendedor</label>
+                            <textarea class="form-control" id="scriptVendedor" rows="3" placeholder="Ingrese el script para el vendedor"></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="fotoCampaña">Foto para Campaña</label>
+                            <input type="file" class="form-control-file" id="fotoCampaña">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Duración de la Campaña</label>
+                            <div class="form-row">
+                                <div class="col">
+                                    <label for="fechaDesde">Desde</label>
+                                    <input type="date" class="form-control" id="fechaDesde">
+                                </div>
+                                <div class="col">
+                                    <label for="fechaHasta">Hasta</label>
+                                    <input type="date" class="form-control" id="fechaHasta">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.card-body -->
+                    <div class="card-footer">
+                       
+                    </div>
+                    <!-- /.card-footer -->
+                </div>
+                <!-- /.card -->
+                <!-- Card Example -->
+                <div class="card col-md-6 ">
+                    <div class="card-header">
+                        <h3 class="card-title">Panel de Filtro de Definición de Clientes Objetivos de la Campaña</h3>
+                        <div class="card-tools">
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                <i class="fas fa-minus"></i>
+                            </button>  
+                        </div>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body">
+
+
+                        <div class="form-group row">
+
+                                                                              <!--Compraron entre -->
+                                                                              <div class="card col-md-6">
+                                                                                <div class="card-header border-transparent">
+                                                                                <h3 class="card-title">Compraron entre</h3>
+                                                                
+                                                                                <div class="card-tools">
+                                                                                    <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                                                                    <i class="fas fa-minus"></i>
+                                                                                    </button>
+                                                                                    <!-- <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                                                                    <i class="fas fa-times"></i>
+                                                                                    </button> -->
+                                                                                </div>
+                                                                                </div>
+                                                                                <!-- /.card-header -->
+                                                                                <div class="card-body p-0">   
+                                                
+                    
+                                                                                    <div class="form-group">
+                                                                                        <!-- <label>Compraron entre</label> -->
+                                                                                        <div class="form-row">
+                                                                                            <div class="col">
+                                                                                                <label for="compraDesde">Desde</label>
+                                                                                                <input type="date" class="form-control" id="compraDesde">
+                                                                                            </div>
+                                                                                            <div class="col">
+                                                                                                <label for="compraHasta">Hasta</label>
+                                                                                                <input type="date" class="form-control" id="compraHasta">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>  
+                                                
+                                                                                </div>
+                                                                                <!-- /.card-body -->
+                                                                                <div class="card-footer clearfix"></div>
+                                                                                <!-- /.card-footer -->
+                                                                            </div>
+                                                                            <!-- /.card -->
+
+
+
+
+
+
+                        
+                        
+                      
+
+
+
+
+
+
+
+
+
+
+
+
+                            <!-- OFICINA -->
+                            <div class="card col-md-6">
+                                <div class="card-header border-transparent">
+                                <h3 class="card-title">Oficina</h3>
+                
+                                <div class="card-tools">
+                                    <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                    <i class="fas fa-minus"></i>
+                                    </button>
+                                    <!-- <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                    <i class="fas fa-times"></i>
+                                    </button> -->
+                                </div>
+                                </div>
+                                <!-- /.card-header -->
+                                <div class="card-body p-0">                    
+                                    <!-- <label>Oficina</label><br> -->
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="oficina" id="todas" value="todas">
+                                        <label class="form-check-label" for="todas">Todas</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="oficina" id="unaOMas" value="unaOMas">
+                                        <label class="form-check-label" for="unaOMas">Una o más Oficinas</label>
+                                    </div>
+                                    <select class="form-control mt-2" id="selectOficinas" multiple></select>             
+                                </div>
+                                <!-- /.card-body -->
+                                <div class="card-footer clearfix"></div>
+                                <!-- /.card-footer -->
+                            </div>
+                            <!-- /.card -->
+
+
+
+                            <!-- RENOVACION -->
+                            <div class="card col-md-6">
+                                <div class="card-header border-transparent">
+                                <h3 class="card-title">Renovación</h3>
+                
+                                <div class="card-tools">
+                                    <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                    <i class="fas fa-minus"></i>
+                                    </button>
+                                    <!-- <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                    <i class="fas fa-times"></i>
+                                    </button> -->
+                                </div>
+                                </div>
+                                <!-- /.card-header -->
+                                <div class="card-body p-0">   
+
+                                    <!-- <label>Renovación</label><br> -->
+                                    <div class="form-check form-check-inline">                                
+                                        <input class="form-check-input" type="radio" name="oficina" id="todas" value="todas">
+                                        <label class="form-check-label" for="todas">Nunca</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">                                
+                                        <input class="form-check-input" type="radio" name="oficina" id="todas" value="todas">
+                                        <label class="form-check-label" for="todas">Ultima renovación Hasta</label>
+                                    </div>
+                                    <div class="col">
+                                        <label for="compraHasta">Hasta</label>
+                                        <input type="date" class="form-control" id="compraHasta">
+                                    </div>
+
+                                </div>
+                                <!-- /.card-body -->
+                                <div class="card-footer clearfix"></div>
+                                <!-- /.card-footer -->
+                            </div>
+                            <!-- /.card -->
+
+
+
+
+
+                                                        <!--Frecuencia RENOVACION -->
+                                                        <div class="card col-md-6">
+                                                            <div class="card-header border-transparent">
+                                                            <h3 class="card-title">Frecuencia Renovación</h3>
+                                            
+                                                            <div class="card-tools">
+                                                                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                                                <i class="fas fa-minus"></i>
+                                                                </button>
+                                                                <!-- <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                                                <i class="fas fa-times"></i>
+                                                                </button> -->
+                                                            </div>
+                                                            </div>
+                                                            <!-- /.card-header -->
+                                                            <div class="card-body p-0">   
+                            
+                                 
+
+
+
+                                                                <!-- <label>Frecuencia Renovación</label><br> -->
+                                                                <div class="form-check form-check-inline">                                
+                                                                    <input class="form-check-input" type="radio" name="oficina" id="todas" value="todas">
+                                                                    <label class="form-check-label" for="todas">Sin frecuencia</label>
+                                                                </div>
+                                                                <div class="form-check form-check-inline">                                
+                                                                    <input class="form-check-input" type="radio" name="oficina" id="todas" value="todas">
+                                                                    <label class="form-check-label" for="todas">Con frecuencias</label>
+                                                                </div>
+
+
+
+                            
+                                                            </div>
+                                                            <!-- /.card-body -->
+                                                            <div class="card-footer clearfix"></div>
+                                                            <!-- /.card-footer -->
+                                                        </div>
+                                                        <!-- /.card -->
+
+
+
+
+
+
+                                                             <!--Tipo Cliente -->
+                                                             <div class="card col-md-6">
+                                                                <div class="card-header border-transparent">
+                                                                <h3 class="card-title">Tipo Cliente</h3>
+                                                
+                                                                <div class="card-tools">
+                                                                    <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                                                    <i class="fas fa-minus"></i>
+                                                                    </button>
+                                                                    <!-- <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                                                    <i class="fas fa-times"></i>
+                                                                    </button> -->
+                                                                </div>
+                                                                </div>
+                                                                <!-- /.card-header -->
+                                                                <div class="card-body p-0">   
+                                                                    
+    
+
+                                                                    <!-- <label>Tipo Cliente</label><br> -->
+                                                                    <div class="form-check form-check-inline">                                
+                                                                        <input class="form-check-input" type="radio" name="oficina" id="todas" value="todas">
+                                                                        <label class="form-check-label" for="todas">Retail</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">                                
+                                                                        <input class="form-check-input" type="radio" name="oficina" id="todas" value="todas">
+                                                                        <label class="form-check-label" for="todas">Flotas</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">                                
+                                                                        <input class="form-check-input" type="radio" name="oficina" id="todas" value="todas">
+                                                                        <label class="form-check-label" for="todas">Ambos</label>
+                                                                    </div>
+    
+    
+                                                     
+    
+    
+                                
+                                                                </div>
+                                                                <!-- /.card-body -->
+                                                                <div class="card-footer clearfix"></div>
+                                                                <!-- /.card-footer -->
+                                                            </div>
+                                                            <!-- /.card -->
+
+
+
+
+
+                                                               <!--Financiamiento -->
+                                                               <div class="card col-md-6">
+                                                                <div class="card-header border-transparent">
+                                                                <h3 class="card-title">Financiamiento</h3>
+                                                
+                                                                <div class="card-tools">
+                                                                    <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                                                    <i class="fas fa-minus"></i>
+                                                                    </button>
+                                                                    <!-- <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                                                    <i class="fas fa-times"></i>
+                                                                    </button> -->
+                                                                </div>
+                                                                </div>
+                                                                <!-- /.card-header -->
+                                                                <div class="card-body p-0">                                                                     
+    
+                                                                   
+                                                                    <div class="form-check form-check-inline">                                
+                                                                        <input class="form-check-input" type="radio" name="oficina" id="todas" value="todas">
+                                                                        <label class="form-check-label" for="todas">Contado</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">                                
+                                                                        <input class="form-check-input" type="radio" name="oficina" id="todas" value="todas">
+                                                                        <label class="form-check-label" for="todas">Credito</label>
+                                                                    </div>
+
+                                                                    <label for="nombreCampaña">Cuotas</label><br>
+                                                                    <input type="text" class="form-control" id="cuotas" placeholder="Ingrese Cuotas">
+                                                     
+                                   
+                                                                </div>
+                                                                <!-- /.card-body -->
+                                                                <div class="card-footer clearfix"></div>
+                                                                <!-- /.card-footer -->
+                                                            </div>
+                                                            <!-- /.card -->
+
+
+
+
+                                                              <!--modelos -->
+                                                              <div class="card col-md-6">
+                                                                <div class="card-header border-transparent">
+                                                                <h3 class="card-title">Familia Modelos</h3>
+                                                
+                                                                <div class="card-tools">
+                                                                    <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                                                    <i class="fas fa-minus"></i>
+                                                                    </button>
+                                                                    <!-- <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                                                    <i class="fas fa-times"></i>
+                                                                    </button> -->
+                                                                </div>
+                                                                </div>
+                                                                <!-- /.card-header -->
+                                                                <div class="card-body p-0">                  
+                                                                    <!-- <label>Familia o Modelos</label><br> -->
+
+                                                                    <div class="row">
+
+                                                                    <div class="form-group col-md-6">
+                                                                                <label for="anioDesde">Año Desde</label>
+                                                                                <input type="number" class="form-control" id="anioDesde" placeholder="Año desde">
+                                                                    </div>
+                                                                    <div class="form-group col-md-6">
+                                                                                <label for="anioHasta">Año Hasta</label>
+                                                                                <input type="number" class="form-control" id="anioHasta" placeholder="Año hasta">
+                                                                    </div>
+                                                                    </div>
+
+
+
+                                                                    <div class="form-group">
+                                                                                <label for="marcaSelect">Marca</label>
+                                                                                <select class="form-control" id="marcaSelect" onchange="updateModelos()">
+                                                                                    <option value="">Seleccione una marca</option>
+                                                                                    <option value="chevrolet">Chevrolet</option>
+                                                                                    <option value="nissan">Nissan</option>
+                                                                                    <option value="toyota">Toyota</option>
+                                                                                    <option value="omoda_jaeeco">Omoda Jaeeco</option>
+                                                                                </select>
+                                                                    </div>
+
+                                                         
+                                                                    <div class="form-group">
+                                                                                <label for="modeloSelect">Modelo</label>
+                                                                                <select class="form-control" id="modeloSelect">
+                                                                                    <option value="">Seleccione un modelo</option>
+                                                                                </select>
+
+
+                                      
+                                                                                  
+                                                                                  
+                                                                    </div> 
+
+                                                                    <select class="selectpicker">
+                                                                        <option>Mustard</option>
+                                                                        <option>Ketchup</option>
+                                                                        <option>Barbecue</option>
+                                                                      </select>
+                                                                      
+                                                     
+    
+    
+                                
+                                                                </div>
+                                                                <!-- /.card-body -->
+                                                                <div class="card-footer clearfix"></div>
+                                                                <!-- /.card-footer -->
+                                                            </div>
+                                                            <!-- /.card -->
+
+
+
+
+
+
+
+
+
+
+                                                                                                                          <!--CANAL VENTAS -->
+                                                                                                                          <div class="card col-md-6">
+                                                                                                                            <div class="card-header border-transparent">
+                                                                                                                            <h3 class="card-title">Dirijida a canal de ventas</h3>
+                                                                                                            
+                                                                                                                            <div class="card-tools">
+                                                                                                                                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                                                                                                                                <i class="fas fa-minus"></i>
+                                                                                                                                </button>
+                                                                                                                                <!-- <button type="button" class="btn btn-tool" data-card-widget="remove">
+                                                                                                                                <i class="fas fa-times"></i>
+                                                                                                                                </button> -->
+                                                                                                                            </div>
+                                                                                                                            </div>
+                                                                                                                            <!-- /.card-header -->
+                                                                                                                            <div class="card-body p-0">                  
+                                                                                                                               
+
+                                                                                                                                <!-- <label>Dirijida a canal de ventas</label><br> -->
+             
+
+                                                                                                                                <div class="form-check">
+                                                                                                                                    <input class="form-check-input" type="checkbox" id="checkbox1">
+                                                                                                                                    <label class="form-check-label" for="checkbox1">
+                                                                                                                                        Vendedor Salon
+                                                                                                                                    </label>
+                                                                                                                                </div>
+                                                                                                                                <div class="form-check">
+                                                                                                                                    <input class="form-check-input" type="checkbox" id="checkbox2">
+                                                                                                                                    <label class="form-check-label" for="checkbox2">
+                                                                                                                                        Vendedor Camion / Flota
+                                                                                                                                    </label>
+                                                                                                                                </div>
+                                                                                                                                <div class="form-check">
+                                                                                                                                    <input class="form-check-input" type="checkbox" id="checkbox3">
+                                                                                                                                    <label class="form-check-label" for="checkbox3">
+                                                                                                                                      Vendedor Web
+                                                                                                                                    </label>
+                                                                                                                                </div>
+                                                                                                    
+                                                                                                                                <div class="form-check">
+                                                                                                                                    <input class="form-check-input" type="checkbox" id="checkbox3">
+                                                                                                                                    <label class="form-check-label" for="checkbox3">
+                                                                                                                                      Teleoperador
+                                                                                                                                    </label>
+                                                                                                                                </div>
+                                                                                                    
+                                                                                                                              
+                                                                
+                                                                
+                                                                                            
+                                                                                                                            </div>
+                                                                                                                            <!-- /.card-body -->
+                                                                                                                            <div class="card-footer clearfix"></div>
+                                                                                                                            <!-- /.card-footer -->
+                                                                                                                        </div>
+                                                                                                                        <!-- /.card -->
+
+
+
+
+
+
+
+                            <!-- <label>Oficina</label><br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="oficina" id="todas" value="todas">
+                                <label class="form-check-label" for="todas">Todas</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="oficina" id="unaOMas" value="unaOMas">
+                                <label class="form-check-label" for="unaOMas">Una o más Oficinas</label>
+                            </div>
+                            <select class="form-control mt-2" id="selectOficinas" multiple></select> -->
+                            <!-- <br>      -->
+                            
+                            
+
+                            <!-- <label>Renovación</label><br>
+                            <div class="form-check form-check-inline">                                
+                                <input class="form-check-input" type="radio" name="oficina" id="todas" value="todas">
+                                <label class="form-check-label" for="todas">Nunca</label>
+                            </div>
+                            <div class="form-check form-check-inline">                                
+                                <input class="form-check-input" type="radio" name="oficina" id="todas" value="todas">
+                                <label class="form-check-label" for="todas">Ultima renovación Hasta</label>
+                            </div>
+                            <div class="col">
+                                <label for="compraHasta">Hasta</label>
+                                <input type="date" class="form-control" id="compraHasta">
+                            </div> -->
+
+                            <!-- <br> -->
+                            <!-- <label>Frecuencia Renovación</label><br>
+                            <div class="form-check form-check-inline">                                
+                                <input class="form-check-input" type="radio" name="oficina" id="todas" value="todas">
+                                <label class="form-check-label" for="todas">Sin frecuencia</label>
+                            </div>
+                            <div class="form-check form-check-inline">                                
+                                <input class="form-check-input" type="radio" name="oficina" id="todas" value="todas">
+                                <label class="form-check-label" for="todas">Con frecuencias</label>
+                            </div> -->
+                          <!-- }  <br><br> -->
+
+                            <!-- <label>Tipo Cliente</label><br>
+                            <div class="form-check form-check-inline">                                
+                                <input class="form-check-input" type="radio" name="oficina" id="todas" value="todas">
+                                <label class="form-check-label" for="todas">Retail</label>
+                            </div>
+                            <div class="form-check form-check-inline">                                
+                                <input class="form-check-input" type="radio" name="oficina" id="todas" value="todas">
+                                <label class="form-check-label" for="todas">Flotas</label>
+                            </div>
+                            <div class="form-check form-check-inline">                                
+                                <input class="form-check-input" type="radio" name="oficina" id="todas" value="todas">
+                                <label class="form-check-label" for="todas">Ambos</label>
+                            </div> -->
+                            <!-- <br><br> -->
+
+                            <!-- <label>Financiamiento</label><br>
+                            <div class="form-check form-check-inline">                                
+                                <input class="form-check-input" type="radio" name="oficina" id="todas" value="todas">
+                                <label class="form-check-label" for="todas">Contado</label>
+                            </div>
+                            <div class="form-check form-check-inline">                                
+                                <input class="form-check-input" type="radio" name="oficina" id="todas" value="todas">
+                                <label class="form-check-label" for="todas">Credito</label>
+                            </div> -->
+                            <!-- <br><br> -->
+
+                            <!-- <label for="nombreCampaña">Cuotas</label><br>
+                            <input type="text" class="form-control" id="cuotas" placeholder="Ingrese Cuotas"> -->
+                            <!-- <br><br> -->
+
+
+                            <!-- <label>Familia o Modelos</label><br>
+                            <div class="form-group">
+                                        <label for="marcaSelect">Marca</label>
+                                        <select class="form-control" id="marcaSelect" onchange="updateModelos()">
+                                            <option value="">Seleccione una marca</option>
+                                            <option value="chevrolet">Chevrolet</option>
+                                            <option value="nissan">Nissan</option>
+                                            <option value="toyota">Toyota</option>
+                                            <option value="omoda_jaeeco">Omoda Jaeeco</option>
+                                        </select>
+                            </div>
+                            <div class="form-group">
+                                        <label for="anioDesde">Año Desde</label>
+                                        <input type="number" class="form-control" id="anioDesde" placeholder="Año desde">
+                            </div>
+                            <div class="form-group">
+                                        <label for="anioHasta">Año Hasta</label>
+                                        <input type="number" class="form-control" id="anioHasta" placeholder="Año hasta">
+                            </div>
+                            <div class="form-group">
+                                        <label for="modeloSelect">Modelo</label>
+                                        <select class="form-control" id="modeloSelect">
+                                            <option value="">Seleccione un modelo</option>
+                                        </select>
+                            </div>  -->
+
+                            <!-- <br><br> -->
+
+                            <!-- <label>Dirijida a canal de ventas</label><br>
+             
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="checkbox1">
+                                <label class="form-check-label" for="checkbox1">
+                                    Vendedor Salon
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="checkbox2">
+                                <label class="form-check-label" for="checkbox2">
+                                    Vendedor Camion / Flota
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="checkbox3">
+                                <label class="form-check-label" for="checkbox3">
+                                  Vendedor Web
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="checkbox3">
+                                <label class="form-check-label" for="checkbox3">
+                                  Teleoperador
+                                </label>
+                            </div> -->
+
+
+                            <!-- <br><br> -->
+
+                            <label>Vendedores a incluir o descartar</label><br>  
+                        
+                            <select class="form-control mt-2" id="selectVendedor" multiple></select>
+
+                        </div>
+                    </div>
+                    <!-- /.card-body -->
+                    <div class="card-footer">
+                       
+                    </div>
+                    <!-- /.card-footer -->
+                </div>
+                <!-- /.card -->
+            </div><!-- /.container-fluid -->
+        </section>
+
+
+
+
+        
+        <button type="submit" class="btn btn-primary">Previsualizar Prospectos</button>
+    </form>
+</div>

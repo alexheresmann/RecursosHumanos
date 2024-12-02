@@ -1,0 +1,45 @@
+  <div class="card card-primary" style="margin: 20px!important; " >
+    <div class="card-header">
+    <h3 class="card-title">Mayoristas</h3>
+    </div>   
+
+    <div class="row" style="margin: 20px!important; padding: 20px!important;">
+      <div class="col-12 row" >
+        <!-- <form class="row"> -->
+          <div class="form-group col-md-3" >
+              <label for="selectOficinas">Oficinas</label>
+              <select class="form-control " id="selectOficinas"></select>  
+          </div>  
+          <div class="form-group col-md-2 " >
+              <label for="selectGrupos">Grupo</label>
+              <select class="form-control" id="selectGrupos"></select>
+          </div>
+            <!-- Sección: Ingeniería -->  
+          <div class="form-group col-md-2">
+              <label for="selectIngenierias">Ingeniería</label>
+              <select class="form-control" id="selectIngenierias"></select>
+          </div>
+          <div class="col-md-3 col-lg-5"    style="margin-top: 1.7rem!important;">
+            <button class="btn btn-primary col-md-3 " (click)="onSearch()"><i class="fas fa-search "></i> Buscar</button>  
+            <button style="margin-left: 5.5rem!important;margin-top: 0.1rem!important;" class="btn btn-danger col-md-xs"  (click)="generarPDF()"><i class="fas fa-file-pdf"></i> PDF</button>
+          </div>
+      </div>
+
+    </div>        
+        <div *ngIf="isLoading" class="spinner-container">
+          <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+        </div>     
+        <div id="miLista"  class="table-responsive" style="padding-left: 40px!important; padding-right: 40px!important;">
+          <!-- Tu lista aquí -->
+          <table id="DTable" class="display datatable "  style="width:95%"></table>
+        </div>     
+        <div class="card-footer">
+        <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+        </div>
+  </div>
+
+  
+
+

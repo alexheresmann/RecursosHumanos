@@ -1,0 +1,63 @@
+    <!-- Main Sidebar Container -->
+    
+    <aside class="main-sidebar sidebar-dark-primary elevation-4" style="position: fixed;">
+        <!-- Brand Logo -->
+        <a href="../../index3.html" class="brand-link">
+          <img src="../assets/dist/img/K.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+          <span class="brand-text font-weight-light">RRHH Kovacs</span>
+        </a>    
+        <!-- Sidebar -->
+        <div class="sidebar">
+          <!-- Sidebar user (optional) -->
+          <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+            <div class="image">
+              <img src="../assets/dist/img/usuario.png" class="img-circle elevation-3" alt="User Image">
+            </div>
+            <div class="info">
+              <a href="#" class="d-block"> 
+                <p id="user">{{ username }}</p>              
+              </a>
+            </div>
+
+          </div>      
+          <!-- Sidebar Menu -->
+          <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+              <!-- Add icons to the links using the .nav-icon class
+                   with font-awesome or any other icon font library -->                            
+
+                  <li class="nav-item d-none" id="liEscala">
+                    <a routerLink="AdministrarEscalas" class="nav-link" style="cursor: pointer;">
+                      <i class="nav-icon fas fa-balance-scale"></i>
+                      <p>
+                        Administrar Escalas
+                        <!-- <span class="right badge badge-danger">New</span> -->
+                      </p>
+                    </a>
+                  </li>
+                  <li class="nav-item d-none" id="liAdmUsuario">
+                    <a routerLink="/AdministrarUsuarios" class="nav-link" style="cursor: pointer;">
+                      <i class="nav-icon fas fa-users"></i>
+                      <p>
+                        Administrar Usuarios
+                        <!-- <span class="right badge badge-danger">New</span> -->
+                      </p>
+                    </a>
+                  </li>
+
+                 <li class="nav-item d-none" id="liEmiComision">
+                    <a routerLink="/EmisionComisiones" class="nav-link" style="cursor: pointer;">
+                      <i class="nav-icon fas fa-percent"></i>
+                      <p>
+                        Emision de Comisiones
+                        <!-- <span class="right badge badge-danger">New</span> -->
+                      </p>
+                    </a>
+                  </li> 
+
+            </ul>
+          </nav>
+          <!-- /.sidebar-menu -->
+        </div>
+        <!-- /.sidebar -->
+      </aside>
